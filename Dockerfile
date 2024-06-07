@@ -30,7 +30,6 @@ RUN python3 -m shuup_workbench migrate
 RUN python3 -m shuup_workbench shuup_init
 
 RUN echo '\
-text
 from django.contrib.auth import get_user_model\n\
 from django.db import IntegrityError\n\
 try:\n\
