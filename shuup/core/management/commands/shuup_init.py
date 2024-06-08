@@ -30,8 +30,8 @@ class Initializer(object):
         schema(
             Shop,
             "default",
-            name="Default Shop By Artem AND Bekarys PART 1",
-            public_name="Default Shop By Artem AND Bekarys PART 1",
+            name="Default Shop",
+            public_name="Default Shop",
             domain="localhost",
             status=ShopStatus.ENABLED,
             maintenance_mode=False,
